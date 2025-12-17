@@ -13,10 +13,6 @@ setup:
     {{python}} -m pip install --upgrade pip
     {{python}} -m pip install -r requirements.txt
     echo "Setup complete! Virtual environment created and dependencies installed."
-# Install Python dependencies
-install:
-    {{python}} -m pip install --upgrade pip
-    {{python}} -m pip install -r requirements.txt
 
 # Copy .env.example to .env if it doesn't exist
 setup-env:
